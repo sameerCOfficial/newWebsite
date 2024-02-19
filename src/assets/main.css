@@ -1,0 +1,40 @@
+@import './base.css';
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.cdnfonts.com/css/broadley');
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-250px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+.custom-bg {
+    background: rgb(183,232,162);
+    background: -moz-linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
+    background: -webkit-linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
+    background: linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b7e8a2",endColorstr="#c1a77b",GradientType=1);
+    min-height: 100vh;
+}
+.custom-nav {
+    margin-top:20px;
+    background-color:transparent;
+    font-size:25px; 
+}
+header {
+    font-family: Rubik;
+}
