@@ -60,7 +60,7 @@ import { ref } from 'vue';
         </div>
         <div class="columns is-centered is-vcentered" id="CVButtons">
           <div class="column is-full">
-            <a href="../../resume1.pdf" download="resume.pdf" class="button is-white" id="button-style-1">
+            <a href="../../public/resume.pdf" download="resume.pdf" class="button is-white" id="button-style-1">
               <img src="../assets/icons8-resume-50.png" alt="Resume">cv
             </a>
             <a href="#" class="button is-white is-clickable" @click="scrollToElement('projects')">projects</a>
@@ -94,7 +94,7 @@ import { ref } from 'vue';
           <h1 class="title">about me</h1>
           <h2 class="subtitle"> a bit about sameer chawla</h2>
         </div>
-        <div class="tile is-ancestor">
+  <div class="tile is-ancestor">
   <div class="tile is-4 is-vertical is-parent">
     <div class="tile is-child box">
       <p class="title">Skills</p>
@@ -117,15 +117,28 @@ import { ref } from 'vue';
     <div class="tile is-child box">
       <p class="title">About me!</p>
       <p style="font-size:25px">
-        Hello, I'm Sameer! A prospective software engineer and full-stack web developer. My passion lies in creating programs that solve unique inconviences.
+        Hello, I'm Sameer! A prospective software engineer and full-stack web developer. My passion lies in creating programs that solve problems.
         Outside of programming I enjoy boxing, going on runs, and solving Rubik's cubes!
       </p>
     </div>
   </div>
 </div>
-      </section>
-    </main>
-  </div>
+</section>
+<section class="section is-medium" id="contact">
+  <div class="titles">
+  <h1 class="title">contact</h1>
+</div>
+<div class="contact-buttons">
+  <a href="https://github.com/sameerCOfficial">
+        <img border="0" style="margin-right:50px" alt="Github" src="../assets/github-mark.png" width="200" height="200">
+  </a>
+  <a href="https://www.linkedin.com/in/sameer-chawla-078466271/">
+        <img border="0" style="margin-left:50px" alt="Github" src="../assets/linkedin.png" width="230" height="230">
+  </a>
+</div>
+</section>
+</main>
+</div>
 </template>
 
 <style scoped>
@@ -137,6 +150,12 @@ import { ref } from 'vue';
     margin: 0 auto;
     padding: 2% 0; 
     margin-top: -100px;
+  }
+
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
   }
   .wrapper2 {
     display: flex;
@@ -190,6 +209,9 @@ import { ref } from 'vue';
     .button img {
       max-width: 30px;
       max-height: 30px;
+    }
+    .contact-buttons {
+      margin-right:20px;
     }
   }
   body {
