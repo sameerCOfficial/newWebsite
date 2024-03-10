@@ -42,7 +42,7 @@ import { ref } from 'vue';
               <a class="navbar-item" @click="scrollToElement('about')">
                   about
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item" @click="scrollToElement('contact')">
                 contact
               </a>
             </div>
