@@ -60,7 +60,7 @@ import { ref } from 'vue';
         </div>
         <div class="columns is-centered is-vcentered" id="CVButtons">
           <div class="column is-full">
-            <a href="/officialresume.pdf" target="_blank" class="button is-white" id="button-style-1">
+            <a href="/resume.pdf" target="_blank" class="button is-white" id="button-style-1">
               <img src="../assets/icons8-resume-50.png" alt="Resume">cv
             </a>
             <a href="#" class="button is-white is-clickable" @click="scrollToElement('projects')">projects</a>
