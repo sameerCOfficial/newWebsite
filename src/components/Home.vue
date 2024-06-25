@@ -35,16 +35,18 @@ const scrollToElement = (elementId) => {
               <span aria-hidden="true"></span>
             </a>
           </div>
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
-                home
-              </a>
-              <a class="navbar-item" @click="scrollToElement('about')">
-                about
-              </a>
-            </div>
-          </div>
+          <div class="navbar-start">
+  <a class="navbar-item" @click="scrollToElement('home')">
+    home
+  </a>
+  <a class="navbar-item" @click="scrollToElement('about')">
+    about
+  </a>
+  <a class="navbar-item" @click="scrollToElement('projects')">
+    projects
+  </a>
+</div>
+
         </nav>
       </div>
       <div class="wrapper">
@@ -61,7 +63,6 @@ const scrollToElement = (elementId) => {
             <a href="/resume.pdf" target="_blank" class="button is-white" id="button-style-1">
               <img src="../assets/icons8-resume-50.png" alt="Resume">cv
             </a>
-            <a href="#" class="button is-white is-clickable" @click="scrollToElement('projects')">projects</a>
           </div>
         </div>
       </div>

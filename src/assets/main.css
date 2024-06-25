@@ -23,12 +23,10 @@
      }
 }
 .custom-bg {
-    background: rgb(183,232,162);
-    background: -moz-linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
-    background: -webkit-linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
-    background: linear-gradient(0deg, rgba(183,232,162,1) 0%, rgba(193,167,123,1) 56%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b7e8a2",endColorstr="#c1a77b",GradientType=1);
-    min-height: 100vh;
+    background-image: linear-gradient(#A594F9, #F5EFFF);
+    background-size: 1000px;
+    width: fit-contentx;
+    height: fit-content;
 }
 .custom-nav {
     margin-top:20px;
